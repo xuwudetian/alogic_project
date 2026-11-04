@@ -1,0 +1,24 @@
+test_alarm_source_matches_board_priority (test_protocol.ProtocolTests.test_alarm_source_matches_board_priority) ... ok
+test_close_during_request_then_reopen (test_protocol.ProtocolTests.test_close_during_request_then_reopen) ... ok
+test_close_releases_waiters (test_protocol.ProtocolTests.test_close_releases_waiters) ... ok
+test_crc_known_vector (test_protocol.ProtocolTests.test_crc_known_vector) ... ok
+test_every_serial_fragment_boundary (test_protocol.ProtocolTests.test_every_serial_fragment_boundary) ... ok
+test_incompatible_status_rejected (test_protocol.ProtocolTests.test_incompatible_status_rejected) ... ok
+test_legacy_resolution_and_ninth_image (test_protocol.ProtocolTests.test_legacy_resolution_and_ninth_image) ... ok
+test_noise_crc_resync_and_command (test_protocol.ProtocolTests.test_noise_crc_resync_and_command) ... ok
+test_obsolete_session_cannot_match_current_request (test_protocol.ProtocolTests.test_obsolete_session_cannot_match_current_request) ... ok
+test_status_timeout_has_diagnostic_counter (test_protocol.ProtocolTests.test_status_timeout_has_diagnostic_counter) ... ok
+test_threaded_roundtrip_and_reconnect (test_protocol.ProtocolTests.test_threaded_roundtrip_and_reconnect) ... ok
+test_truncated_legacy_header_recovers_after_byte_gap (test_protocol.ProtocolTests.test_truncated_legacy_header_recovers_after_byte_gap) ... ok
+test_v2_real_ranges_and_flags (test_protocol.ProtocolTests.test_v2_real_ranges_and_flags) ... ok
+test_write_failure_closes_connection_and_releases_waiter (test_protocol.ProtocolTests.test_write_failure_closes_connection_and_releases_waiter) ... ok
+test_wrong_sequence_is_not_matched (test_protocol.ProtocolTests.test_wrong_sequence_is_not_matched) ... ok
+test_connection_worker_manual_disconnect_and_generation_guard (test_ui.UiTests.test_connection_worker_manual_disconnect_and_generation_guard) ... ok
+test_history_filters_and_stale_snapshot (test_ui.UiTests.test_history_filters_and_stale_snapshot) ... ok
+test_reconnect_only_original_device (test_ui.UiTests.test_reconnect_only_original_device) ... ok
+test_states_ranges_and_exports (test_ui.UiTests.test_states_ranges_and_exports) ... ok
+
+----------------------------------------------------------------------
+Ran 19 tests in 1.320s
+
+OK

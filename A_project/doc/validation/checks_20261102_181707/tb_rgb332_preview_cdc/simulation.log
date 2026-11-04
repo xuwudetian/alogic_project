@@ -1,0 +1,2 @@
+PASS preview top CDC: metadata2 pixel clocks precedes request3, PIC6/PIC9 values, no mid-frame changes, commit begins on next frame, pending target cancellation and original20-frame finish, asynchronous reset; digital boundary models
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_rgb332_preview_cdc.v:61: $finish called at 3783000 (1ps)

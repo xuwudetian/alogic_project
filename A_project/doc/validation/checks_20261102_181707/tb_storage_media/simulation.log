@@ -1,0 +1,2 @@
+PASS storage media: transient E20 auto-reinit, fragmented WAV FAT chain, official async FIFO ordered PCM, concurrent previews, direct select, loop, isolated underrun, bad WAV fallback
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_storage_media.v:76: $finish called at 37646000000 (1ps)

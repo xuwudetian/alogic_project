@@ -1,0 +1,2 @@
+PASS production lane serializer + vendor ODDR: 512 symbols / 5120 exact DDR bits at 65/325MHz, no drops/reorder, 650Mb/s logical stream
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_rgb332_serializer.v:43: $finish called at 8102684 (1ps)

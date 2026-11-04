@@ -1,0 +1,2 @@
+PASS control: frame-boundary priority, preserve settings/mode, source isolation, local alarm regression
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\link\tb_control.v:28: $finish called at 760000 (1ps)

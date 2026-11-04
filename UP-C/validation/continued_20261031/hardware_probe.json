@@ -1,0 +1,37 @@
+{
+  "ports": [
+    {
+      "port": "COM25",
+      "description": "USB-SERIAL CH340 (COM25)",
+      "hwid": "USB VID:PID=1A86:7523 SER= LOCATION=1-1"
+    },
+    {
+      "port": "COM3",
+      "description": "蓝牙链接上的标准串行 (COM3)",
+      "hwid": "BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_VID&000105D6_PID&000A\\9&2902058&0&CC14BCE81C1C_C00000000"
+    },
+    {
+      "port": "COM4",
+      "description": "蓝牙链接上的标准串行 (COM4)",
+      "hwid": "BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\\9&2902058&0&000000000000_0000000C"
+    },
+    {
+      "port": "COM6",
+      "description": "蓝牙链接上的标准串行 (COM6)",
+      "hwid": "BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&0000\\9&2902058&0&000000000000_00000011"
+    },
+    {
+      "port": "COM7",
+      "description": "蓝牙链接上的标准串行 (COM7)",
+      "hwid": "BTHENUM\\{00001101-0000-1000-8000-00805F9B34FB}_LOCALMFG&005D\\9&2902058&0&B4E7B32137BD_C00000000"
+    }
+  ],
+  "probe": "read-only CMD02 at 115200, no firmware programming",
+  "status": "no_valid_response",
+  "samples": [],
+  "statistics": {
+    "requests": 3,
+    "tx_bytes": 18,
+    "timeouts": 3
+  }
+}

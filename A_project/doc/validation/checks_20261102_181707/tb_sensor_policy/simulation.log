@@ -1,0 +1,2 @@
+PASS sensor policy: settings retain live compensation, immediate combined manual target, signed/saturated brightness, light hysteresis/ramp, sound arming/cooldown, quiet exit and reset
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_sensor_policy.v:124: $finish called at 160800000 (1ps)

@@ -1,0 +1,2 @@
+PASS VIDEO_IO: capture/SCCB/TMDS/DDR
+D:\software\TD_Tangdynasty\alogic_project\B_project\sim\tb_video_io.v:144: $finish called at 164021000 (1ps)

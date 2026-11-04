@@ -1,0 +1,8 @@
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_audio_selection.v:17: warning: Port 16 (available) of player_control expects 9 bits, got 6.
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_audio_selection.v:17:        : Padding 3 high bits of the port.
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_audio_selection.v:17: warning: Port 17 (thumbnail_valid) of player_control expects 9 bits, got 6.
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_audio_selection.v:17:        : Padding 3 high bits of the port.
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_audio_selection.v:26: warning: Port 4 (y) of player_status_osd expects 10 bits, got 9.
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_audio_selection.v:26:        : Padding 1 high bits of the port.
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_audio_selection.v:26: warning: Port 8 (picture) of player_status_osd expects 4 bits, got 3.
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_audio_selection.v:26:        : Padding 1 high bits of the port.

@@ -1,0 +1,2 @@
+PASS audio selection: 1/4 default, all four labels, both key wraps, seven-item menu, frame commits, sensor/network/manual alarm restore, retained settings, OSD raster
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_audio_selection.v:113: $finish called at 2881670000 (1ps)

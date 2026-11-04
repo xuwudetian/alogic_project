@@ -1,0 +1,2 @@
+PASS uart_status: 115200 framing, compact snapshot, CRC, busy sequence, timeout, framing error, saturated error count, reset
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_uart_telemetry.v:110: $finish called at 16466718228 (1ps)

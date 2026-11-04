@@ -1,0 +1,136 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/software/anlogic_TD/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     1
+   Run Date =   Mon Nov  2 18:21:13 2026
+
+   Run on =     LAPTOP-FAQ04GE8
+============================================================
+RUN-1002 : start command "import_device eagle_s20.db -package EG4S20BG256"
+RUN-1001 : Using default speed grade: NA
+ARC-1001 : Device Initialization.
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :            OPTION            |          IO          |   SETTING   
+ARC-1001 : ------------------------------------------------------------------
+ARC-1001 :   cso_b/cclk/mosi/miso/dout  |  T3/R11/T10/P10/S11  |    gpio    
+ARC-1001 :             done             |         P13          |    gpio    
+ARC-1001 :           program_b          |          T2          |  dedicate  
+ARC-1001 :        tdi/tms/tck/tdo       |   C12/A15/C14/E14    |  dedicate  
+ARC-1001 : ------------------------------------------------------------------
+ARC-1004 : Device setting, marked 5 dedicate IOs in total.
+RUN-1002 : start command "open_project B_project.al -single_run"
+PRJ-6609 WARNING: Cannot get launched time from configuration file for run syn_1.
+PRJ-6609 WARNING: Cannot get launched time from configuration file for run phy_1.
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-1007 : analyze verilog file ../user_source/hdl_source/cnn/damage_mac_lane.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/cnn/damage_mobilenet_int8.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/ethernet/net_clock.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/ethernet/net_damage_filter.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/ethernet/net_endpoint.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/ethernet/net_mailbox.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/ethernet/net_mdio.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/ethernet/net_session.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/ethernet/net_udp_mac.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/integration/damage_overlay.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/integration/damage_result_display.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/integration/reset_release.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/integration/roi_capture.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/top.v
+HDL-1007 : analyze included file model_status.vh in ../user_source/hdl_source/top.v(1)
+HDL-1007 : back to file '../user_source/hdl_source/top.v' in ../user_source/hdl_source/top.v(1)
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/camera_preview.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/hdmi_dvi_tx.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/ov5640_camera_frontend.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/ov5640_register_table.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/ov5640_rgb565_capture.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/ov5640_sccb_write.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/preview_async_fifo.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/preview_frame_store.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/preview_sdram_controller.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/preview_sdram_model.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/preview_sdram_phy.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/tmds_encoder.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/tmds_serializer.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/video_reset_sync.v
+HDL-1007 : analyze verilog file ../user_source/hdl_source/video/video_timing_640x480.v
+HDL-1007 : analyze verilog file ../user_source/ip_source/hx4s20_video_pll.v
+HDL-1007 : analyze verilog file ../user_source/ip_source/video_frame_ram.v
+PRJ-1401 : Successfully analyzed 31 source files.
+RUN-1002 : start command "elaborate -top top"
+HDL-1007 : elaborate module top in ../user_source/hdl_source/top.v(2)
+HDL-1007 : elaborate module hx4s20_video_pll in ../user_source/ip_source/hx4s20_video_pll.v(5)
+HDL-1007 : elaborate module EG_LOGIC_BUFG in D:\software\anlogic_TD\arch/eagle_macro.v(5)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=3,FBCLK_DIV=4,CLKC0_DIV=15,CLKC1_DIV=3,CLKC2_DIV=10,CLKC3_DIV=10,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",CLKC2_ENABLE="ENABLE",CLKC3_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=14,CLKC1_CPHASE=2,CLKC2_CPHASE=9,CLKC3_CPHASE=7,GMC_GAIN=0,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=2,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in D:\software\anlogic_TD\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module reset_release in ../user_source/hdl_source/integration/reset_release.v(2)
+HDL-1007 : elaborate module ov5640_camera_frontend in ../user_source/hdl_source/video/ov5640_camera_frontend.v(2)
+HDL-1007 : elaborate module ov5640_register_table in ../user_source/hdl_source/video/ov5640_register_table.v(10)
+HDL-1007 : elaborate module ov5640_sccb_write in ../user_source/hdl_source/video/ov5640_sccb_write.v(4)
+HDL-1007 : elaborate module video_reset_sync in ../user_source/hdl_source/video/video_reset_sync.v(3)
+HDL-1007 : elaborate module ov5640_rgb565_capture(WIDTH=1024,HEIGHT=768) in ../user_source/hdl_source/video/ov5640_rgb565_capture.v(4)
+HDL-1007 : elaborate module ov5640_resize_1024_to_640 in ../user_source/hdl_source/video/ov5640_camera_frontend.v(91)
+HDL-1007 : elaborate module camera_preview in ../user_source/hdl_source/video/camera_preview.v(6)
+HDL-1007 : elaborate module video_timing_640x480(H_ACTIVE=1024,H_FP=24,H_SYNC=136,H_BP=160,V_ACTIVE=768,V_FP=3,V_SYNC=6,V_BP=29) in ../user_source/hdl_source/video/video_timing_640x480.v(4)
+HDL-1007 : elaborate module preview_frame_store in ../user_source/hdl_source/video/preview_frame_store.v(6)
+HDL-1007 : elaborate module preview_async_fifo in ../user_source/hdl_source/video/preview_async_fifo.v(5)
+HDL-1007 : elaborate module video_frame_ram(WORDS=1024,BANKS=1) in ../user_source/ip_source/video_frame_ram.v(4)
+HDL-1007 : elaborate module EG_PHY_BRAM32K in D:\software\anlogic_TD\arch/eagle_macro.v(323)
+HDL-1007 : elaborate module preview_sdram_controller in ../user_source/hdl_source/video/preview_sdram_controller.v(8)
+HDL-1007 : elaborate module preview_sdram_phy in ../user_source/hdl_source/video/preview_sdram_phy.v(4)
+HDL-1007 : elaborate module EG_PHY_SDRAM_2M_32 in D:\software\anlogic_TD\arch/eagle_macro.v(683)
+HDL-1007 : elaborate module roi_capture in ../user_source/hdl_source/integration/roi_capture.v(4)
+HDL-1007 : elaborate module video_frame_ram(WORDS=4096,BANKS=2) in ../user_source/ip_source/video_frame_ram.v(4)
+HDL-1007 : elaborate module damage_mobilenet_int8(REFINE=1,TAIL_CHANNELS=64,REFINE_KERNEL=1) in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(5)
+HDL-1007 : extracting RAM for identifier 'gap_vector' in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(52)
+HDL-1007 : extracting RAM for identifier 'feature_a' in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(58)
+HDL-1007 : extracting RAM for identifier 'feature_b' in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(59)
+HDL-1007 : extracting RAM for identifier 'feature_a_second' in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(60)
+HDL-1007 : extracting RAM for identifier 'feature_b_second' in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(61)
+HDL-1007 : extracting RAM for identifier 'weights_rom' in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(64)
+HDL-1007 : extracting RAM for identifier 'bias_rom' in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(65)
+HDL-1007 : extracting RAM for identifier 'shifts_rom' in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(66)
+HDL-1007 : readmemh: reading from file 'model/weights.hex' in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(71)
+HDL-1007 : readmemh: reading from file 'model/bias.hex' in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(72)
+HDL-1007 : readmemh: reading from file 'model/shifts.hex' in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(73)
+HDL-1007 : elaborate module damage_mac_lane in ../user_source/hdl_source/cnn/damage_mac_lane.v(2)
+HDL-5314 WARNING: net 'weights_rom' does not have a driver in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(64)
+HDL-5314 WARNING: net 'bias_rom' does not have a driver in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(65)
+HDL-5314 WARNING: net 'shifts_rom' does not have a driver in ../user_source/hdl_source/cnn/damage_mobilenet_int8.v(66)
+HDL-1007 : elaborate module net_damage_filter in ../user_source/hdl_source/ethernet/net_damage_filter.v(3)
+HDL-1007 : elaborate module net_endpoint(IS_B=1,session HEARTBEAT_MS=10) in ../user_source/hdl_source/ethernet/net_endpoint.v(2)
+HDL-1007 : elaborate module net_clock in ../user_source/hdl_source/ethernet/net_clock.v(5)
+HDL-1007 : elaborate module EG_PHY_PLL(FIN="50.000000",REFCLK_DIV=2,CLKC0_DIV=40,CLKC1_DIV=40,CLKC0_ENABLE="ENABLE",CLKC1_ENABLE="ENABLE",FEEDBK_PATH="CLKC0_EXT",STDBY_ENABLE="DISABLE",CLKC0_CPHASE=39,CLKC1_CPHASE=49,GMC_GAIN=0,ICP_CURRENT=9,KVCO=2,LPF_CAPACITOR=2,LPF_RESISTOR=8,SYNC_ENABLE="DISABLE") in D:\software\anlogic_TD\arch/eagle_macro.v(889)
+HDL-1007 : elaborate module net_mdio(IS_B=1) in ../user_source/hdl_source/ethernet/net_mdio.v(8)
+HDL-1007 : elaborate module net_session(IS_B=1,HEARTBEAT_MS=10) in ../user_source/hdl_source/ethernet/net_session.v(5)
+HDL-1007 : elaborate module net_mailbox in ../user_source/hdl_source/ethernet/net_mailbox.v(4)
+HDL-1007 : elaborate module net_udp_mac(IS_B=1) in ../user_source/hdl_source/ethernet/net_udp_mac.v(35)
+HDL-1007 : elaborate module net_frame_byte(IS_B=1) in ../user_source/hdl_source/ethernet/net_udp_mac.v(6)
+HDL-1007 : elaborate module net_frame_byte(IS_B=1'b0) in ../user_source/hdl_source/ethernet/net_udp_mac.v(6)
+HDL-1007 : elaborate module EG_LOGIC_ODDR(ASYNCRST="DISABLE") in D:\software\anlogic_TD\arch/eagle_macro.v(66)
+HDL-1007 : elaborate module damage_result_display in ../user_source/hdl_source/integration/damage_result_display.v(4)
+HDL-1007 : elaborate module damage_overlay(MODEL_TRAINED=1,MODEL_ACCEPTED=1,WIDTH=1024,HEIGHT=768) in ../user_source/hdl_source/integration/damage_overlay.v(2)
+HDL-1007 : elaborate module hdmi_dvi_tx in ../user_source/hdl_source/video/hdmi_dvi_tx.v(4)
+HDL-1007 : elaborate module tmds_encoder in ../user_source/hdl_source/video/tmds_encoder.v(4)
+HDL-1007 : elaborate module tmds_serializer in ../user_source/hdl_source/video/tmds_serializer.v(5)
+HDL-1007 : elaborate module EG_LOGIC_ODDR in D:\software\anlogic_TD\arch/eagle_macro.v(66)
+HDL-5001 WARNING: Contains anonymous inst(s) and/or net(s) that have not been renamed
+HDL-1200 : Current top model is top
+HDL-1100 : Inferred 8 RAMs.

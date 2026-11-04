@@ -1,0 +1,2 @@
+PASS HDMI_1024: 1344x806 timing, 786432 active pixels, 768 lines, 8192 serialized RGB/control words at 66.667/333.333 MHz
+D:\software\TD_Tangdynasty\alogic_project\B_project\sim\tb_hdmi_1024.v:95: $finish called at 16249057700 (1ps)

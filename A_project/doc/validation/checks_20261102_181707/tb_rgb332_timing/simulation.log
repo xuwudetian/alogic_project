@@ -1,0 +1,2 @@
+PASS native XGA raster: two complete 1344x806 frames at 65MHz, 1024x768 active pixels, HS136/VS6, metadata guard and request/ACK
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_rgb332_timing.v:30: $finish called at 49996878922952 (1fs)

@@ -1,0 +1,2 @@
+PASS controls: AUTO boot, reserved SW2/SW4, no submenu, settings entry/exit, seven fields, AUTO/MAN frame commit, playback/preview/alarm isolation, nine-slot navigation
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_ui_controls.v:92: $finish called at 13790000 (1ps)

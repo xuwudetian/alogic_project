@@ -1,0 +1,4 @@
+D:\software\TD_Tangdynasty\alogic_project\B_project\src\user_source\hdl_source\cnn\damage_mobilenet_int8.v:289: warning: returning 'bx for out of bounds array access prefetched[4].
+D:\software\TD_Tangdynasty\alogic_project\B_project\src\user_source\hdl_source\cnn\damage_mobilenet_int8.v:289: warning: returning 'bx for out of bounds array access prefetched[5].
+PASS TOP_CAMERA: 786432 native preview pixels; unchanged 4096 CNN inputs/logits; class 2; native 1024x768 display verified
+D:\software\TD_Tangdynasty\alogic_project\B_project\sim\tb_top_camera.v:59: $finish called at 64935472700 (1ps)

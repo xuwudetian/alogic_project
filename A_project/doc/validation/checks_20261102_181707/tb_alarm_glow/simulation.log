@@ -1,0 +1,2 @@
+PASS alarm glow: 64-frame period, frame-locked pulse, full background, main/edge ink, clean exit, blanking, bright reentry
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_alarm_glow.v:30: $finish called at 27050000 (1ps)

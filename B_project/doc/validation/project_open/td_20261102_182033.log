@@ -1,0 +1,33 @@
+============================================================
+   Tang Dynasty, V6.2.168116
+   Copyright (c) 2012-2025 Anlogic Inc.
+   Executable = D:/software/anlogic_TD/bin/td_commands_prompt.exe
+   Built at =   16:32:07 Jun 12 2025
+   Run by =     1
+   Run Date =   Mon Nov  2 18:20:33 2026
+
+   Run on =     LAPTOP-FAQ04GE8
+============================================================
+RUN-1002 : start command "open_project D:/software/TD_Tangdynasty/alogic_project/B_project/src/td_project/B_project.al"
+PRJ-6609 WARNING: Cannot get launched time from configuration file for run syn_1.
+PRJ-6609 WARNING: Cannot get launched time from configuration file for run phy_1.
+RUN-1002 : start command "commit_param -step design"
+RUN-1001 : Print Global Property
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   Parameters   |  Settings  |  Default Values  |  Note  
+RUN-1001 : --------------------------------------------------------
+RUN-1001 :   enable_seed  |    off     |       off        |        
+RUN-1001 :     message    |  standard  |     standard     |        
+RUN-1001 :   qor_monitor  |     on     |        on        |        
+RUN-1001 :   syn_ip_flow  |    off     |       off        |        
+RUN-1001 :     thread     |    auto    |       auto       |        
+RUN-1001 : --------------------------------------------------------
+RUN-1001 : Print Design Property
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :       Parameters       |  Settings  |  Default Values  |  Note  
+RUN-1001 : ----------------------------------------------------------------
+RUN-1001 :   default_reg_initial  |    auto    |       auto       |        
+RUN-1001 :    hdl_warning_level   |   normal   |      normal      |        
+RUN-1001 : ----------------------------------------------------------------
+HDL-5007 WARNING: could not find top-level module/unit; aborting hierarchy tree creation
+PRJ-1401 : Successfully analyzed 31 source files.

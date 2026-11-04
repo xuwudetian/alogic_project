@@ -1,0 +1,3 @@
+D:\software\TD_Tangdynasty\lab_ex_best1B\lab_ex_bestA\src\user_source\hdl_source\SD\frame_read_write.v:406: warning: Port 26 (wrusedw) of frame_fifo_read expects 11 bits, got 10.
+D:\software\TD_Tangdynasty\lab_ex_best1B\lab_ex_bestA\src\user_source\hdl_source\SD\frame_read_write.v:406:        : Padding 1 high bits of the port.
+D:\software\TD_Tangdynasty\lab_ex_best1B\lab_ex_bestA\sim\tb_rgb332_top.v:155: vvp.tgt sorry: procedural continuous assignments are not yet fully supported. The RHS of this assignment will only be evaluated once, at the time the assignment statement is executed.

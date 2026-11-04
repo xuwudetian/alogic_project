@@ -1,0 +1,2 @@
+aa247d6bf730c8fd6d3095fd7ac928ab64f245ca1a6ffa746ac11b61f7ffe38d  B_project.bin
+a515eaadc69a64f179f9b70658619b30f07ef358b49a84f32dd892c60aa54756  B_project.bit

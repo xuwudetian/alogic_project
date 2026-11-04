@@ -1,0 +1,67 @@
+146 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.9
+146 INFO: Python: 3.13.14
+189 INFO: Platform: Windows-11-10.0.22631-SP0
+189 INFO: Python environment: D:\software\TD_Tangdynasty\lab_ex_best1B\UP-C\.venv
+190 INFO: wrote D:\software\TD_Tangdynasty\lab_ex_best1B\UP-C\.build\Ӧ��ϵͳ.spec
+197 INFO: Module search paths (PYTHONPATH):
+['D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C',
+ 'D:\\software\\python\\python312\\python313.zip',
+ 'D:\\software\\python\\python312\\DLLs',
+ 'D:\\software\\python\\python312\\Lib',
+ 'D:\\software\\python\\python312',
+ 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv',
+ 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages',
+ 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C']
+560 INFO: Appending 'datas' from .spec
+561 INFO: checking Analysis
+568 INFO: Building because D:\software\TD_Tangdynasty\lab_ex_best1B\UP-C\emergency_system.py changed
+568 INFO: Looking for Python shared library...
+568 INFO: Using Python shared library: D:\software\python\python312\python313.dll
+568 INFO: Running Analysis Analysis-00.toc
+568 INFO: Target bytecode optimization level: 0
+568 INFO: Initializing module dependency graph...
+569 INFO: Initializing module graph hook caches...
+580 INFO: Analyzing modules for base_library.zip ...
+1974 INFO: Processing standard module hook 'hook-encodings.py' from 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+2435 INFO: Processing standard module hook 'hook-math.py' from 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+2586 INFO: Processing standard module hook 'hook-heapq.py' from 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+3357 INFO: Processing standard module hook 'hook-pickle.py' from 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4301 INFO: Caching module dependency graph...
+4326 INFO: Analyzing D:\software\TD_Tangdynasty\lab_ex_best1B\UP-C\emergency_system.py
+4379 INFO: Processing pre-find-module-path hook 'hook-tkinter.py' from 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+4380 INFO: TclTkInfo: initializing cached Tcl/Tk info...
+4693 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4824 INFO: Processing standard module hook 'hook-sysconfig.py' from 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4827 INFO: Processing standard module hook 'hook-_ctypes.py' from 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4899 INFO: Processing module hooks (post-graph stage)...
+4901 INFO: Processing standard module hook 'hook-_tkinter.py' from 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+4907 INFO: Performing binary vs. data reclassification (929 entries)
+4998 INFO: Looking for ctypes DLLs
+5011 WARNING: Ignoring /System/Library/Frameworks/IOKit.framework/IOKit imported from D:\software\TD_Tangdynasty\lab_ex_best1B\UP-C\.venv\Lib\site-packages\serial\tools\list_ports_osx.py - only basenames are supported with ctypes imports!
+5012 WARNING: Ignoring /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation imported from D:\software\TD_Tangdynasty\lab_ex_best1B\UP-C\.venv\Lib\site-packages\serial\tools\list_ports_osx.py - only basenames are supported with ctypes imports!
+5022 INFO: Analyzing run-time hooks ...
+5023 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+5025 INFO: Including run-time hook 'pyi_rth__tkinter.py' from 'D:\\software\\TD_Tangdynasty\\lab_ex_best1B\\UP-C\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+5040 INFO: Creating base_library.zip...
+5056 INFO: Looking for dynamic libraries
+5187 INFO: Extra DLL search directories (AddDllDirectory): []
+5187 INFO: Extra DLL search directories (PATH): []
+5536 INFO: Warnings written to D:\software\TD_Tangdynasty\lab_ex_best1B\UP-C\.build\Ӧ��ϵͳ\warn-Ӧ��ϵͳ.txt
+5546 INFO: Graph cross-reference written to D:\software\TD_Tangdynasty\lab_ex_best1B\UP-C\.build\Ӧ��ϵͳ\xref-Ӧ��ϵͳ.html
+5565 INFO: checking PYZ
+5584 INFO: checking PKG
+5591 INFO: Building because toc changed
+5591 INFO: Building PKG (CArchive) Ӧ��ϵͳ.pkg
+7757 INFO: Building PKG (CArchive) Ӧ��ϵͳ.pkg completed successfully.
+7768 INFO: Bootloader D:\software\TD_Tangdynasty\lab_ex_best1B\UP-C\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+7768 INFO: checking EXE
+7774 INFO: Building because toc changed
+7774 INFO: Building EXE from EXE-00.toc
+7775 INFO: Copying bootloader EXE to D:\software\TD_Tangdynasty\lab_ex_best1B\UP-C\release\Ӧ��ϵͳ.exe
+7783 INFO: Copying icon to EXE
+7789 INFO: Copying 0 resources to EXE
+7790 INFO: Embedding manifest in EXE
+7795 INFO: Appending PKG archive to EXE
+7806 INFO: Fixing EXE headers
+7862 INFO: Building EXE from EXE-00.toc completed successfully.
+7873 INFO: Build complete! The results are available in: D:\software\TD_Tangdynasty\lab_ex_best1B\UP-C\release

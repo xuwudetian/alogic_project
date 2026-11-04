@@ -1,0 +1,5 @@
+D:\software\TD_Tangdynasty\alogic_project\B_project\src\user_source\hdl_source\cnn\damage_mobilenet_int8.v:289: warning: returning 'bx for out of bounds array access prefetched[4].
+D:\software\TD_Tangdynasty\alogic_project\B_project\src\user_source\hdl_source\cnn\damage_mobilenet_int8.v:289: warning: returning 'bx for out of bounds array access prefetched[5].
+PASS: 2624 feature words (20992 activations), 64 GAP values and 3 logits match.
+RESULT cycles=37557 latency_us=751 class=2 logits=-44695,-25508,6697
+D:\software\TD_Tangdynasty\alogic_project\B_project\sim\tb_cnn_int8.v:69: $finish called at 833211000 (1ps)

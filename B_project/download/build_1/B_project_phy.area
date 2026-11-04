@@ -1,0 +1,268 @@
+standard
+***Report Model: top Device: EG4S20BG256***
+
+IO Statistics
+#IO                        37   out of    188   19.68%
+  #input                   19
+  #output                  16
+  #inout                    2
+
+Utilization Statistics
+#lut                    16668   out of  19600   85.04%
+#reg                     4205   out of  19600   21.45%
+#le                     16871
+  #lut only             12666   out of  16871   75.08%
+  #reg only               203   out of  16871    1.20%
+  #lut&reg               4002   out of  16871   23.72%
+#bram                      42   out of     64   65.62%
+  #bram9k                  42
+  #fifo9k                   0
+#bram32k                   14   out of     16   87.50%
+#dsp                       24   out of     29   82.76%
+#pad                       41   out of    188   21.81%
+  #ireg                    16
+  #oreg                    12
+  #treg                     1
+#pll                        2   out of      4   50.00%
+#gclk                       3   out of     16   18.75%
+
+
+Detailed IO Report
+
+      Name         Direction    Location    IOStandard    IOType    DriveStrength    PullType     PackReg   
+   cam_data[7]       INPUT        H16        LVCMOS33      PAD           N/A           NONE        IREG     
+   cam_data[6]       INPUT        K16        LVCMOS33      PAD           N/A           NONE        IREG     
+   cam_data[5]       INPUT        M16        LVCMOS33      PAD           N/A           NONE        IREG     
+   cam_data[4]       INPUT        M15        LVCMOS33      PAD           N/A           NONE        IREG     
+   cam_data[3]       INPUT        L16        LVCMOS33      PAD           N/A           NONE        IREG     
+   cam_data[2]       INPUT        N16        LVCMOS33      PAD           N/A           NONE        IREG     
+   cam_data[1]       INPUT        N14        LVCMOS33      PAD           N/A           NONE        IREG     
+   cam_data[0]       INPUT        P16        LVCMOS33      PAD           N/A           NONE        IREG     
+    cam_href         INPUT        R15        LVCMOS33      PAD           N/A           NONE        IREG     
+    cam_pclk         INPUT        H15        LVCMOS33      PAD           N/A           NONE        NONE     
+    cam_vsync        INPUT        R14        LVCMOS33      PAD           N/A           NONE        IREG     
+       clk           INPUT         R7        LVCMOS33      PAD           N/A           NONE        NONE     
+   eth_rx_clk        INPUT        T14        LVCMOS33      PAD           N/A           NONE        NONE     
+   eth_rx_ctl        INPUT        T13        LVCMOS33      PAD           N/A           NONE        IREG     
+   eth_rxd[3]        INPUT         N9        LVCMOS33      PAD           N/A           NONE        IREG     
+   eth_rxd[2]        INPUT         T9        LVCMOS33      PAD           N/A           NONE        IREG     
+   eth_rxd[1]        INPUT         M6        LVCMOS33      PAD           N/A           NONE        IREG     
+   eth_rxd[0]        INPUT         P6        LVCMOS33      PAD           N/A           NONE        IREG     
+      rst_n          INPUT         A2        LVCMOS33      PAD           N/A           NONE        NONE     
+   HDMI_CLK_P       OUTPUT         K1         LVDS33       PAD           NA            NONE        DDRX1    
+  HDMI_CLK_P(n)     OUTPUT         J1         LVDS33       PAD           NA            NONE        NONE     
+    HDMI_D0_P       OUTPUT         F5         LVDS33       PAD           NA            NONE        DDRX1    
+  HDMI_D0_P(n)      OUTPUT         F4         LVDS33       PAD           NA            NONE        NONE     
+    HDMI_D1_P       OUTPUT         E3         LVDS33       PAD           NA            NONE        DDRX1    
+  HDMI_D1_P(n)      OUTPUT         E4         LVDS33       PAD           NA            NONE        NONE     
+    HDMI_D2_P       OUTPUT         B3         LVDS33       PAD           NA            NONE        DDRX1    
+  HDMI_D2_P(n)      OUTPUT         D3         LVDS33       PAD           NA            NONE        NONE     
+    cam_pwdn        OUTPUT        K15        LVCMOS33      PAD            8            NONE        NONE     
+    cam_rst_n       OUTPUT        P15        LVCMOS33      PAD            8            NONE        NONE     
+     cam_scl        OUTPUT        T15        LVCMOS33      PAD            8            NONE        OREG     
+     eth_mdc        OUTPUT        L13        LVCMOS33      PAD            8            NONE        OREG     
+   eth_tx_clk       OUTPUT        T12        LVCMOS33      PAD            8            NONE        DDRX1    
+   eth_tx_ctl       OUTPUT         T7        LVCMOS33      PAD            8            NONE        DDRX1    
+   eth_txd[3]       OUTPUT         T8        LVCMOS33      PAD            8            NONE        DDRX1    
+   eth_txd[2]       OUTPUT         M7        LVCMOS33      PAD            8            NONE        DDRX1    
+   eth_txd[1]       OUTPUT         T6        LVCMOS33      PAD            8            NONE        DDRX1    
+   eth_txd[0]       OUTPUT         T4        LVCMOS33      PAD            8            NONE        DDRX1    
+  net_led_n[1]      OUTPUT         A3        LVCMOS33      PAD            8            NONE        NONE     
+  net_led_n[0]      OUTPUT         A4        LVCMOS33      PAD            8            NONE        NONE     
+     cam_sda         INOUT        R16        LVCMOS33      PAD            8            NONE        TREG     
+    eth_mdio         INOUT        M13        LVCMOS33      PAD            8           PULLUP       IREG     
+       dm0          OUTPUT        S14        LVCMOS25      PAD            8            NONE        NONE     
+       cke          OUTPUT        S18        LVCMOS25      PAD            8            NONE        OREG     
+      we_n          OUTPUT        S19        LVCMOS25      PAD            8            NONE        OREG     
+      cas_n         OUTPUT        S20        LVCMOS25      PAD            8            NONE        OREG     
+      ras_n         OUTPUT        S21        LVCMOS25      PAD            8            NONE        OREG     
+      cs_n          OUTPUT        S22        LVCMOS25      PAD            8            NONE        NONE     
+     addr[9]        OUTPUT        S23        LVCMOS25      PAD            8            NONE        OREG     
+     addr[8]        OUTPUT        S24        LVCMOS25      PAD            8            NONE        OREG     
+     addr[7]        OUTPUT        S25        LVCMOS25      PAD            8            NONE        OREG     
+     addr[6]        OUTPUT        S26        LVCMOS25      PAD            8            NONE        OREG     
+     addr[5]        OUTPUT        S27        LVCMOS25      PAD            8            NONE        OREG     
+     addr[4]        OUTPUT        S28        LVCMOS25      PAD            8            NONE        OREG     
+       dm2          OUTPUT        S29        LVCMOS25      PAD            8            NONE        NONE     
+       dm3          OUTPUT        S61        LVCMOS25      PAD            8            NONE        NONE     
+     addr[3]        OUTPUT        S64        LVCMOS25      PAD            8            NONE        OREG     
+     addr[2]        OUTPUT        S65        LVCMOS25      PAD            8            NONE        OREG     
+     addr[1]        OUTPUT        S66        LVCMOS25      PAD            8            NONE        OREG     
+     addr[0]        OUTPUT        S67        LVCMOS25      PAD            8            NONE        OREG     
+    addr[10]        OUTPUT        S68        LVCMOS25      PAD            8            NONE        OREG     
+      ba[0]         OUTPUT        S69        LVCMOS25      PAD            8            NONE        OREG     
+      ba[1]         OUTPUT        S70        LVCMOS25      PAD            8            NONE        NONE     
+       clk          OUTPUT        S73        LVCMOS25      PAD            8            NONE        NONE     
+       dm1          OUTPUT        S76        LVCMOS25      PAD            8            NONE        NONE     
+      dq[0]          INOUT         S1        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+      dq[6]          INOUT        S11        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+      dq[7]          INOUT        S12        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+      dq[1]          INOUT         S2        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[23]          INOUT        S31        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[22]          INOUT        S32        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[21]          INOUT        S35        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[20]          INOUT        S36        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[19]          INOUT        S37        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[18]          INOUT        S38        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[17]          INOUT        S41        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[16]          INOUT        S42        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[31]          INOUT        S48        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[30]          INOUT        S49        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+      dq[2]          INOUT         S5        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[29]          INOUT        S52        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[28]          INOUT        S53        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[27]          INOUT        S54        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[26]          INOUT        S55        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[25]          INOUT        S58        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[24]          INOUT        S59        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+      dq[3]          INOUT         S6        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+      dq[4]          INOUT         S7        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+      dq[8]          INOUT        S78        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+      dq[9]          INOUT        S79        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+      dq[5]          INOUT         S8        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[10]          INOUT        S82        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[11]          INOUT        S83        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[12]          INOUT        S84        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[13]          INOUT        S85        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[14]          INOUT        S88        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+     dq[15]          INOUT        S89        LVCMOS25      PAD            8           PULLUP     IREG;OREG  
+
+Report Clock Domain Luts:
+
+------------------------------------------------------------------------------------------------------------------
+  Index   |  Name         |  Frequency   |  LUT As Logic   |  LUT As Shifter   |  LUT As Dram   |  BRAM   |  DSP
+------------------------------------------------------------------------------------------------------------------
+  #1      |  cam_pclk     |  50MHz       |  182            |  0                |  0             |  4      |  0
+  #2      |  clk          |  50MHz       |  6424           |  0                |  1088          |  52     |  24
+  #3      |  net_mac      |  25MHz       |  90             |  0                |  0             |  0      |  0
+  #4      |  net_rx       |  25MHz       |  87             |  0                |  0             |  0      |  0
+  #5      |  preview_mem  |  100MHz      |  281            |  0                |  0             |  4      |  0
+  #6      |  serial_clk   |  333MHz      |  32             |  0                |  0             |  0      |  0
+  #7      |  video_clk    |  66MHz       |  280            |  0                |  0             |  2      |  0
+------------------------------------------------------------------------------------------------------------------
+
+Clock Resource Statistics
+Index     ClockNet                                          Type               DriverType         Driver                           Fanout
+#1        clk_dup_5                                         Global             io                 clk_syn_6.di                     2059
+#2        preview/frame_store/clk                           Global             pll                u_video_pll/pll_inst.clkc2       552
+#3        cam_pclk_dup_1                                    Global             io                 cam_pclk_syn_2.di                187
+#4        u_video_pll/pixel_raw                             Global             pll                u_video_pll/pll_inst.clkc0       128
+#5        eth_rx_clk_dup_1                                  Global             io                 eth_rx_clk_syn_2.di              82
+#6        network/clocks/raw                                Global             pll                network/clocks/pll_inst.clkc0    82
+#7        hdmi/sb/serial_clk                                Global             pll                u_video_pll/pll_inst.clkc1       42
+#8        network/shifted_clk                               Global             pll                network/clocks/pll_inst.clkc1    1
+#9        preview/frame_store/memory_phy/mem_forward_clk    Global             pll                u_video_pll/pll_inst.clkc3       0
+
+Report Hierarchy Area:
++------------------------------------------------------------------------------------------------------------+
+|Instance                   |Module                    |le      |lut     |ripple  |seq     |bram    |dsp     |
++------------------------------------------------------------------------------------------------------------+
+|top                        |top                       |16871   |15017   |1651    |4234    |56      |24      |
+|  camera                   |ov5640_camera_frontend    |596     |537     |42      |239     |0       |0       |
+|    bus_master             |ov5640_sccb_write         |133     |128     |5       |54      |0       |0       |
+|    capture                |ov5640_rgb565_capture     |76      |69      |6       |65      |0       |0       |
+|    normalize              |ov5640_resize_1024_to_640 |139     |111     |12      |79      |0       |0       |
+|    table_rom              |ov5640_register_table     |140     |140     |0       |0       |0       |0       |
+|    capture_reset          |video_reset_sync          |2       |2       |0       |2       |0       |0       |
+|  cnn                      |damage_mobilenet_int8     |13318   |11986   |1332    |2458    |50      |24      |
+|    input_high_ram         |video_frame_ram           |27      |27      |0       |5       |2       |0       |
+|    input_low_ram          |video_frame_ram           |0       |0       |0       |0       |2       |0       |
+|    input_second_high_ram  |video_frame_ram           |18      |18      |0       |1       |2       |0       |
+|    input_second_low_ram   |video_frame_ram           |0       |0       |0       |0       |2       |0       |
+|    pixels[0]$lanes[0]$mac |damage_mac_lane           |52      |43      |9       |26      |0       |1       |
+|    pixels[0]$lanes[1]$mac |damage_mac_lane           |57      |48      |9       |28      |0       |1       |
+|    pixels[0]$lanes[2]$mac |damage_mac_lane           |52      |43      |9       |23      |0       |1       |
+|    pixels[0]$lanes[3]$mac |damage_mac_lane           |51      |42      |9       |33      |0       |1       |
+|    pixels[0]$lanes[4]$mac |damage_mac_lane           |52      |43      |9       |29      |0       |1       |
+|    pixels[0]$lanes[5]$mac |damage_mac_lane           |52      |43      |9       |28      |0       |1       |
+|    pixels[0]$lanes[6]$mac |damage_mac_lane           |62      |53      |9       |22      |0       |1       |
+|    pixels[0]$lanes[7]$mac |damage_mac_lane           |60      |51      |9       |31      |0       |1       |
+|    pixels[1]$lanes[0]$mac |damage_mac_lane           |50      |41      |9       |32      |0       |1       |
+|    pixels[1]$lanes[1]$mac |damage_mac_lane           |48      |39      |9       |32      |0       |1       |
+|    pixels[1]$lanes[2]$mac |damage_mac_lane           |44      |35      |9       |26      |0       |1       |
+|    pixels[1]$lanes[3]$mac |damage_mac_lane           |46      |37      |9       |28      |0       |1       |
+|    pixels[1]$lanes[4]$mac |damage_mac_lane           |47      |38      |9       |29      |0       |1       |
+|    pixels[1]$lanes[5]$mac |damage_mac_lane           |50      |41      |9       |32      |0       |1       |
+|    pixels[1]$lanes[6]$mac |damage_mac_lane           |44      |35      |9       |26      |0       |1       |
+|    pixels[1]$lanes[7]$mac |damage_mac_lane           |46      |37      |9       |28      |0       |1       |
+|    pixels[2]$lanes[0]$mac |damage_mac_lane           |49      |40      |9       |31      |0       |1       |
+|    pixels[2]$lanes[1]$mac |damage_mac_lane           |50      |41      |9       |32      |0       |1       |
+|    pixels[2]$lanes[2]$mac |damage_mac_lane           |40      |31      |9       |22      |0       |1       |
+|    pixels[2]$lanes[3]$mac |damage_mac_lane           |48      |39      |9       |32      |0       |1       |
+|    pixels[2]$lanes[4]$mac |damage_mac_lane           |46      |37      |9       |28      |0       |1       |
+|    pixels[2]$lanes[5]$mac |damage_mac_lane           |47      |38      |9       |29      |0       |1       |
+|    pixels[2]$lanes[6]$mac |damage_mac_lane           |55      |46      |9       |37      |0       |1       |
+|    pixels[2]$lanes[7]$mac |damage_mac_lane           |44      |35      |9       |26      |0       |1       |
+|    pixels[3]$lanes[0]$mac |damage_mac_lane           |48      |39      |9       |30      |0       |0       |
+|    pixels[3]$lanes[1]$mac |damage_mac_lane           |44      |35      |9       |27      |0       |0       |
+|    pixels[3]$lanes[2]$mac |damage_mac_lane           |46      |37      |9       |28      |0       |0       |
+|    pixels[3]$lanes[3]$mac |damage_mac_lane           |51      |42      |9       |33      |0       |0       |
+|    pixels[3]$lanes[4]$mac |damage_mac_lane           |48      |39      |9       |30      |0       |0       |
+|    pixels[3]$lanes[5]$mac |damage_mac_lane           |46      |37      |9       |28      |0       |0       |
+|    pixels[3]$lanes[6]$mac |damage_mac_lane           |41      |32      |9       |24      |0       |0       |
+|    pixels[3]$lanes[7]$mac |damage_mac_lane           |42      |33      |9       |24      |0       |0       |
+|    pixels[4]$lanes[0]$mac |damage_mac_lane           |48      |39      |9       |30      |0       |0       |
+|    pixels[4]$lanes[1]$mac |damage_mac_lane           |51      |42      |9       |34      |0       |0       |
+|    pixels[4]$lanes[2]$mac |damage_mac_lane           |48      |39      |9       |30      |0       |0       |
+|    pixels[4]$lanes[3]$mac |damage_mac_lane           |48      |39      |9       |30      |0       |0       |
+|    pixels[4]$lanes[4]$mac |damage_mac_lane           |86      |77      |9       |33      |0       |0       |
+|    pixels[4]$lanes[5]$mac |damage_mac_lane           |48      |39      |9       |30      |0       |0       |
+|    pixels[4]$lanes[6]$mac |damage_mac_lane           |46      |37      |9       |28      |0       |0       |
+|    pixels[4]$lanes[7]$mac |damage_mac_lane           |48      |39      |9       |30      |0       |0       |
+|    pixels[5]$lanes[0]$mac |damage_mac_lane           |48      |39      |9       |30      |0       |0       |
+|    pixels[5]$lanes[1]$mac |damage_mac_lane           |48      |39      |9       |30      |0       |0       |
+|    pixels[5]$lanes[2]$mac |damage_mac_lane           |48      |39      |9       |30      |0       |0       |
+|    pixels[5]$lanes[3]$mac |damage_mac_lane           |50      |41      |9       |32      |0       |0       |
+|    pixels[5]$lanes[4]$mac |damage_mac_lane           |48      |39      |9       |30      |0       |0       |
+|    pixels[5]$lanes[5]$mac |damage_mac_lane           |49      |40      |9       |31      |0       |0       |
+|    pixels[5]$lanes[6]$mac |damage_mac_lane           |46      |37      |9       |28      |0       |0       |
+|    pixels[5]$lanes[7]$mac |damage_mac_lane           |62      |53      |9       |31      |0       |0       |
+|  detection_timer          |net_damage_filter         |149     |107     |42      |62      |0       |0       |
+|  hdmi                     |hdmi_dvi_tx               |260     |242     |18      |78      |0       |0       |
+|    blue                   |tmds_encoder              |70      |64      |6       |15      |0       |0       |
+|    green                  |tmds_encoder              |82      |76      |6       |13      |0       |0       |
+|    red                    |tmds_encoder              |65      |59      |6       |11      |0       |0       |
+|    sb                     |tmds_serializer           |12      |12      |0       |10      |0       |0       |
+|    sc                     |tmds_serializer           |6       |6       |0       |6       |0       |0       |
+|    sr                     |tmds_serializer           |13      |13      |0       |12      |0       |0       |
+|    sg                     |tmds_serializer           |12      |12      |0       |11      |0       |0       |
+|  network                  |net_endpoint              |708     |635     |41      |445     |0       |0       |
+|    clocks                 |net_clock                 |0       |0       |0       |0       |0       |0       |
+|    mac                    |net_udp_mac               |320     |308     |11      |172     |0       |0       |
+|    phy                    |net_mdio                  |168     |156     |12      |92      |0       |0       |
+|    rx_box                 |net_mailbox               |48      |37      |0       |48      |0       |0       |
+|    session                |net_session               |91      |64      |18      |53      |0       |0       |
+|    tx_box                 |net_mailbox               |50      |48      |0       |50      |0       |0       |
+|  osd                      |damage_overlay            |114     |57      |57      |0       |0       |0       |
+|  preview                  |camera_preview            |1288    |1033    |101     |822     |4       |0       |
+|    cache_high             |video_frame_ram           |0       |0       |0       |0       |1       |0       |
+|    cache_low              |video_frame_ram           |0       |0       |0       |0       |1       |0       |
+|    frame_store            |preview_frame_store       |1043    |853     |42      |745     |2       |0       |
+|      camera_fifo          |preview_async_fifo        |102     |63      |9       |88      |2       |0       |
+|        high_ram           |video_frame_ram           |0       |0       |0       |0       |1       |0       |
+|        low_ram            |video_frame_ram           |0       |0       |0       |0       |1       |0       |
+|      memory_controller    |preview_sdram_controller  |506     |459     |13      |332     |0       |0       |
+|      memory_phy           |preview_sdram_phy         |2       |2       |0       |1       |0       |0       |
+|    timing                 |video_timing_640x480      |102     |60      |42      |17      |0       |0       |
+|  roi                      |roi_capture               |124     |106     |18      |50      |2       |0       |
+|    roi_ram                |video_frame_ram           |10      |10      |0       |2       |2       |0       |
+|  u_video_pll              |hx4s20_video_pll          |1       |1       |0       |0       |0       |0       |
+|  result_display           |damage_result_display     |12      |12      |0       |12      |0       |0       |
+|  sys_reset                |reset_release             |2       |2       |0       |2       |0       |0       |
+|  video_reset              |reset_release             |3       |3       |0       |3       |0       |0       |
++------------------------------------------------------------------------------------------------------------+
+
+
+DataNet Average Fanout:
+
+   Index     Fanout     Nets   
+    #1          1       11850  
+    #2          2       5996   
+    #3          3        862   
+    #4          4        921   
+    #5        5-10      1124   
+    #6        11-50      645   
+    #7       51-100      100   
+    #8       101-500     44    
+    #9        >500        2    
+  Average     3.12             

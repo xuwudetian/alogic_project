@@ -1,0 +1,2 @@
+PASS CAPTURE_1024: 1024x768 DVP, all 640x480 RGB565 samples, excess pixels/lines, odd-byte tail, partial-frame restart (618880 checked)
+D:\software\TD_Tangdynasty\alogic_project\B_project\sim\tb_capture_1024.v:82: $finish called at 63710760000 (1ps)

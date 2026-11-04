@@ -1,0 +1,320 @@
+{
+  "dataset_manifest_sha256": "4a8a3ada469e289105a56418f378fdc131767ca6d98a378e82a0c743f2d6511b",
+  "split_audit": {
+    "train/val": {
+      "groups": 0,
+      "source_paths": 0,
+      "identical_64x64_images": 0
+    },
+    "train/test": {
+      "groups": 0,
+      "source_paths": 0,
+      "identical_64x64_images": 0
+    },
+    "val/test": {
+      "groups": 0,
+      "source_paths": 0,
+      "identical_64x64_images": 0
+    }
+  },
+  "model_sha256": {
+    "weights.hex": "21b51d2495ebddd292edd47c29d3a295d1edb60ae510de4be7267a8fa5e1d5a2",
+    "bias.hex": "29ca5bce33cc96e1f83e429401323de7421a730ff4c9b268c198ab2a8e0cf6f1",
+    "shifts.hex": "5342c7563a2a4e394cd3f74957b2b5e478c83085c6b0199bd1f1e3c8938e7071"
+  },
+  "selection": "Fixed previous validation-selected checkpoint, evaluated after quarantining whole evaluation groups that shared exact crops with training. No new tuning on this reduced evaluation set. Previous checkpoint selection used the original validation set.",
+  "parameters": 8067,
+  "baseline_parameters": 8579,
+  "parameter_reduction_percent": 5.968061545634685,
+  "qat_export_logits_exact_on_full_validation_and_test": true,
+  "results": {
+    "val": {
+      "baseline_int8": {
+        "accuracy": 0.833008288639688,
+        "balanced_accuracy": 0.783803607340372,
+        "recall": [
+          0.8401960784313726,
+          0.9186666666666666,
+          0.5925480769230769
+        ],
+        "precision": [
+          0.937636761487965,
+          0.8321256038647343,
+          0.7002840909090909
+        ],
+        "confusion": [
+          [
+            857,
+            108,
+            55
+          ],
+          [
+            27,
+            2067,
+            156
+          ],
+          [
+            30,
+            309,
+            493
+          ]
+        ],
+        "samples": 4102
+      },
+      "candidate_int8": {
+        "accuracy": 0.8798147245246222,
+        "balanced_accuracy": 0.8485663231104407,
+        "recall": [
+          0.9882352941176471,
+          0.9204444444444444,
+          0.6370192307692307
+        ],
+        "precision": [
+          0.9645933014354067,
+          0.8742085268045588,
+          0.7703488372093024
+        ],
+        "confusion": [
+          [
+            1008,
+            11,
+            1
+          ],
+          [
+            22,
+            2071,
+            157
+          ],
+          [
+            15,
+            287,
+            530
+          ]
+        ],
+        "samples": 4102
+      },
+      "by_source": {
+        "accident": {
+          "accuracy": 0.7591463414634146,
+          "balanced_accuracy": 0.4952035933550018,
+          "recall": [
+            0.0,
+            0.8485915492957746,
+            0.6370192307692307
+          ],
+          "precision": [
+            0.0,
+            0.7705835331734612,
+            0.7714701601164483
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              15,
+              964,
+              157
+            ],
+            [
+              15,
+              287,
+              530
+            ]
+          ],
+          "samples": 1968,
+          "balanced_accuracy_present_classes": 0.7428053900325027
+        },
+        "bit": {
+          "accuracy": 0.9910965323336457,
+          "balanced_accuracy": 0.6606505438800295,
+          "recall": [
+            0.9882352941176471,
+            0.9937163375224417,
+            0.0
+          ],
+          "precision": [
+            0.993103448275862,
+            0.9901610017889088,
+            0.0
+          ],
+          "confusion": [
+            [
+              1008,
+              11,
+              1
+            ],
+            [
+              7,
+              1107,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "samples": 2134,
+          "balanced_accuracy_present_classes": 0.9909758158200443
+        }
+      },
+      "accuracy_gain_pp": 4.680643588493416,
+      "recall_gain_pp": [
+        14.803921568627453,
+        0.1777777777777767,
+        4.447115384615385
+      ],
+      "all_class_recalls_improved": true
+    },
+    "test": {
+      "baseline_int8": {
+        "accuracy": 0.8905109489051095,
+        "balanced_accuracy": 0.7847193521145397,
+        "recall": [
+          0.8555917480998915,
+          0.9695340501792115,
+          0.5290322580645161
+        ],
+        "precision": [
+          0.9887076537013801,
+          0.8825448613376835,
+          0.48520710059171596
+        ],
+        "confusion": [
+          [
+            788,
+            75,
+            58
+          ],
+          [
+            5,
+            1082,
+            29
+          ],
+          [
+            4,
+            69,
+            82
+          ]
+        ],
+        "samples": 2192
+      },
+      "candidate_int8": {
+        "accuracy": 0.9498175182481752,
+        "balanced_accuracy": 0.8326729166909898,
+        "recall": [
+          0.9804560260586319,
+          0.982078853046595,
+          0.535483870967742
+        ],
+        "precision": [
+          0.9966887417218543,
+          0.926458157227388,
+          0.8058252427184466
+        ],
+        "confusion": [
+          [
+            903,
+            16,
+            2
+          ],
+          [
+            2,
+            1096,
+            18
+          ],
+          [
+            1,
+            71,
+            83
+          ]
+        ],
+        "samples": 2192
+      },
+      "by_source": {
+        "accident": {
+          "accuracy": 0.6270491803278688,
+          "balanced_accuracy": 0.44066690830010874,
+          "recall": [
+            0.0,
+            0.7865168539325843,
+            0.535483870967742
+          ],
+          "precision": [
+            0.0,
+            0.49645390070921985,
+            0.8217821782178217
+          ],
+          "confusion": [
+            [
+              0,
+              0,
+              0
+            ],
+            [
+              1,
+              70,
+              18
+            ],
+            [
+              1,
+              71,
+              83
+            ]
+          ],
+          "samples": 244,
+          "balanced_accuracy_present_classes": 0.6610003624501631
+        },
+        "bit": {
+          "accuracy": 0.9902464065708418,
+          "balanced_accuracy": 0.6598274387413875,
+          "recall": [
+            0.9804560260586319,
+            0.9990262901655307,
+            0.0
+          ],
+          "precision": [
+            0.9988938053097345,
+            0.9846449136276392,
+            0.0
+          ],
+          "confusion": [
+            [
+              903,
+              16,
+              2
+            ],
+            [
+              1,
+              1026,
+              0
+            ],
+            [
+              0,
+              0,
+              0
+            ]
+          ],
+          "samples": 1948,
+          "balanced_accuracy_present_classes": 0.9897411581120813
+        }
+      },
+      "accuracy_gain_pp": 5.930656934306566,
+      "recall_gain_pp": [
+        12.486427795874045,
+        1.2544802867383575,
+        0.6451612903225823
+      ],
+      "all_class_recalls_improved": true
+    }
+  },
+  "caveats": [
+    "Background labels derive from vehicle annotations, not independent no-vehicle annotation.",
+    "BITVehicle provides type/box labels, not audited damage labels; intact is a dataset assumption.",
+    "Prior deployed model training provenance unavailable; old model may have seen these sources."
+  ],
+  "hardware_validation": "Software and RTL only. No physical board testing performed."
+}

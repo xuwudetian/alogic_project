@@ -1,0 +1,36 @@
+# Python environments and generated build files
+.venv/
+venv/
+.build/
+__pycache__/
+*.py[cod]
+
+# Tang Dynasty synthesis/place-and-route working directories
+*_Runs/
+A_project/src/td_project/log/
+B_project/src/td_project/log/
+
+# Compiled simulation outputs and waveforms
+*.vvp
+*.vcd
+*.fst
+
+# Local application settings and logs
+UP-C/settings.json
+UP-C/release/settings.json
+UP-C/ui_check.log
+startup_error.log
+
+# Machine-local secrets and editor/OS files
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.pfx
+*.p12
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo

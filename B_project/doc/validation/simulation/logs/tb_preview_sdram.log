@@ -1,0 +1,2 @@
+PASS PREVIEW_SDRAM: native 1024x768 RGB565, BL8/CL3 init/refresh, partial/busy/overflow recovery, 4718592 display pixels, peak camera FIFO 288/1024
+D:\software\TD_Tangdynasty\alogic_project\B_project\sim\tb_preview_sdram.v:140: $finish called at 146179824500 (1ps)

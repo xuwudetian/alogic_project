@@ -1,0 +1,2 @@
+PASS RESULT_DISPLAY: three confirmations, alternating/invalid rejection, held CDC payload, frame-only update and reset
+D:\software\TD_Tangdynasty\alogic_project\B_project\sim\tb_result_display.v:69: $finish called at 6534000 (1ps)

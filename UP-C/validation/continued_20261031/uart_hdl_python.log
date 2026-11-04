@@ -1,0 +1,3 @@
+PASS uart_status: 115200 framing, compact snapshot, CRC, busy sequence, timeout, framing error, saturated error count, reset
+bench.v:110: $finish called at 16466718228 (1ps)
+PASS HDL -> Python: physical TX frame, CRC, byte fragmentation, sensor fields, signed brightness

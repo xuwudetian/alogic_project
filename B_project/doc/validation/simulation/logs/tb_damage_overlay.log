@@ -1,0 +1,3 @@
+Raster 640x480
+PASS DAMAGE_OVERLAY: enlarged 32x32 Chinese labels without numeric prefixes, original gray/green/orange colors, full-frame preview/ROI preservation, no startup/error hints and correct blanking
+D:\software\TD_Tangdynasty\alogic_project\B_project\sim\tb_damage_overlay.v:65: $finish called at 2150408000 (1ps)

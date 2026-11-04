@@ -1,0 +1,2 @@
+PASS end-to-end: MDIO, RGMII, UDP, sustained damage assert without ACK, 3s clear, UI resume, stop inference, packet loss, reconnect
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\link\tb_end_to_end.v:117: $finish called at 16480100000 (1ps)

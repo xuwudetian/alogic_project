@@ -1,0 +1,2 @@
+PASS CAMERA_CONFIG: 253 writes, simple/legacy AWB, transient/permanent NACK, format/timing preserved
+D:\software\TD_Tangdynasty\alogic_project\B_project\sim\tb_camera_config.v:150: $finish called at 36561610000 (1ps)

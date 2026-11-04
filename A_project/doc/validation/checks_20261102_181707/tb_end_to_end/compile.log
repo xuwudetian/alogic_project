@@ -1,0 +1,4 @@
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\link\tb_end_to_end.v:81: warning: Port 16 (available) of player_control expects 9 bits, got 6.
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\link\tb_end_to_end.v:81:        : Padding 3 high bits of the port.
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\link\tb_end_to_end.v:81: warning: Port 17 (thumbnail_valid) of player_control expects 9 bits, got 6.
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\link\tb_end_to_end.v:81:        : Padding 3 high bits of the port.

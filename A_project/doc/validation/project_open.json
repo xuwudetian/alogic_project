@@ -1,0 +1,8 @@
+{
+  "project": "A_project",
+  "returncode": 0,
+  "passed": true,
+  "elaborated_top": "top",
+  "seconds": 2.23,
+  "log": "project_open/open.log"
+}

@@ -1,0 +1,3 @@
+PASS top UART binding: raw ranges, alarm source, picture, signed brightness; local controls unchanged
+PASS nativeXGA9 top startup/rates/banks/SW1: KEY1 high throughout, lock/settling/domain resets, E41 agreement, SD error restoration, SW4 audio/scanner isolation, network LEDs, PLL loss/restart (vendor boundaries modelled)
+D:\software\TD_Tangdynasty\lab_ex_best1B\lab_ex_bestA\sim\tb_rgb332_top.v:185: $finish called at 14540000 (1ps)

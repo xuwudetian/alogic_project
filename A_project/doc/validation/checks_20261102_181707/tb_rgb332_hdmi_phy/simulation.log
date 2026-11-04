@@ -1,0 +1,2 @@
+PASS actual four-lane HDMI PHY + vendor ODDR: 20480 exact bits, LSB-first channel/clock ordering, 65/325MHz, asynchronous reset and serial synchronous release
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_rgb332_hdmi_phy.v:58: $finish called at 8210344 (1ps)

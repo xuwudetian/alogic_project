@@ -1,0 +1,4 @@
+D:\software\TD_Tangdynasty\alogic_project\B_project\src\user_source\hdl_source\cnn\damage_mobilenet_int8.v:289: warning: returning 'bx for out of bounds array access prefetched[4].
+D:\software\TD_Tangdynasty\alogic_project\B_project\src\user_source\hdl_source\cnn\damage_mobilenet_int8.v:289: warning: returning 'bx for out of bounds array access prefetched[5].
+PASS HDMI_NATIVE_TOP: actual HDMI A pins decoded 1024x768 (786432 pixels), native per-pixel detail preserved; unchanged 640x480 normalizer (307200 pixels), 4096 exact ROI inputs
+D:\software\TD_Tangdynasty\alogic_project\B_project\sim\tb_hdmi_native_top.v:82: $finish called at 64935543100 (1ps)

@@ -1,0 +1,2 @@
+PASS native ADC: 100 SOC periods/33280 clocks at65MHz preserve195.3125kS/s average; channel1/data/EOC/reset; analog boundary model only
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_rgb332_adc.v:31: $finish called at 514134280 (1ps)

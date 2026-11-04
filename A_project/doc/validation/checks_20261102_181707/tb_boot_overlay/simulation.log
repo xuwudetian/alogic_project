@@ -1,0 +1,2 @@
+PASS boot: white full-frame pixel reference, complete FPGA title, removed loading text, color logo, animated bar, unchanged sync, fixed 209-frame duration for ready/error/no-card/waiting, menu/alarm/reset/hotplug
+D:\software\TD_Tangdynasty\alogic_project\A_project\sim\tb_boot_overlay.v:127: $finish called at 6304111000 (1ps)

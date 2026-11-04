@@ -1,0 +1,2 @@
+PASS roi_capture: all4096 samples, backpressure, stable CDC ownership
+D:\software\TD_Tangdynasty\alogic_project\B_project\sim\tb_roi_capture.v:58: $finish called at 21242030000 (1ps)
